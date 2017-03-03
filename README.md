@@ -20,6 +20,6 @@ Say you need to add license to some files in the repo: `/tmp/repo`:
 
 ##CAUTION
 
-Be careful what directories you use this script on. You do not want to do this on `/` or `/home`.
+Be careful what directories you use this script on. You do not want to do this on `/` or `/home` as it walks the subdirectories and applies license in all `*.R` and `*.py` files it finds. 
 
 
