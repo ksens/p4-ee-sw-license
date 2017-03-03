@@ -7,10 +7,10 @@
 **Usage**:
 
 ```sh
-./licensing.sh WorkingDirectory PathToLicenseFile
+./licensing.sh /PATH/TO/CODE/DIRECTORY /PATH/TO/LICENSEFILE
 ```
 
-**RECOMMENDATION**: Use this script only on version tracked working directories.
+**RECOMMENDATION**: Use this script only on version tracked directories.
 
 
 **Example usage**:
