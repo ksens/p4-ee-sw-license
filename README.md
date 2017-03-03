@@ -1,12 +1,8 @@
-# p4-ee-sw-license
+# licensing.sh
 
-## LICENSE.txt
-Paradigm4 Enterprise Edition Software License
-
-## licensing.sh
-
-Added script that on running on a directory, detects files where P4 EE license is missing, 
-and adds the license to those files
+- Script to make life easier while adding licenses en-mass to files in a selected directory. 
+- File types on which license is to be added has to be hard-coded for now in the script (e.g. ".R .py")
+- Files already containing the P4 license are not touched
 
 **Usage**:
 
