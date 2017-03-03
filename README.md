@@ -10,9 +10,6 @@
 ./licensing.sh /PATH/TO/CODE/DIRECTORY /PATH/TO/LICENSEFILE
 ```
 
-**RECOMMENDATION**: Use this script only on version tracked directories.
-
-
 **Example usage**:
 
 Say you need to add license to some files in the repo: `/tmp/repo`:
@@ -20,3 +17,9 @@ Say you need to add license to some files in the repo: `/tmp/repo`:
 ```sh
 ./licensing.sh /tmp/repo LICENSE.txt
 ```
+
+##CAUTION
+
+Be careful what directories you use this script on. You do not want to do this on `/` or `/home`.
+
+
